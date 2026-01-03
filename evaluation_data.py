@@ -138,5 +138,19 @@ evaluation_data = [
         "parameter": "dehaze",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_vibrance_plus40.jpg",
+        "parameter": "vibrance",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_vibrance_minus40.jpg",
+        "parameter": "vibrance",
+        "color": None,
+        "direction": "negative",
     }
 ]
