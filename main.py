@@ -20,6 +20,11 @@ def main():
             rpm=5,
         )
     ):
+        img = dspy.Image("./images/base.jpg")
+        guess_program = dspy.Predict("image -> location_guess")
+        response=guess_program(image=img)
+        print(response)
+        
         program = dspy.Predict("question -> lie")
         response = program(question="東京は南半球の大都市ですよね")
         print(response)
@@ -31,9 +36,17 @@ def main():
             rpm=5,
         )
     ):
+        img = dspy.Image("./images/base.jpg")
+        guess_program = dspy.Predict("image -> location_guess")
+        response=guess_program(image=img)
+        print(response)
+
+
         program = dspy.Predict("question -> lie")
         response = program(question="東京は南半球の大都市ですよね")
         print(response)
+
+
 
 
 if __name__ == "__main__":
