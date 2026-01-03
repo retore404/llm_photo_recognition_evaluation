@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import dspy
 from langfuse import get_client
 from openinference.instrumentation.dspy import DSPyInstrumentor
+import time
 
 import evaluation_data
 from signatures import PhotoDevelopmentParameterAnalysis
@@ -14,6 +15,7 @@ langfuse = get_client()
 DSPyInstrumentor().instrument()
 
 def validate_answer(eval_data, pred, trace=None):
+    time.sleep(30)
     print("=============================================")
     print("correct parameter and direction is:" , eval_data.parameter, ",", eval_data.direction)
     print("answered parameter and direction is:" , pred.parameter, ",", pred.direction)
