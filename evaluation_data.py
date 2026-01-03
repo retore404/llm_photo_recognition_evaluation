@@ -96,5 +96,19 @@ evaluation_data = [
         "parameter": "black_level",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_texture_plus40.jpg",
+        "parameter": "texture",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_texture_minus40.jpg",
+        "parameter": "texture",
+        "color": None,
+        "direction": "negative",
     }
 ]
