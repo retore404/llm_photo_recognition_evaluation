@@ -11,6 +11,7 @@ from signatures import PhotoDevelopmentParameterAnalysis
 # 環境変数を読み込む
 load_dotenv()
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
+GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 
 # LangFuseでのトレースを有効にする
 langfuse = get_client()
@@ -44,7 +45,8 @@ def main():
             #"bedrock/global.anthropic.claude-sonnet-4-5-20250929-v1:0", cache=False, rpm=0.5,
             #"bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0", cache=False, rpm=0.5,
             # "bedrock/us.amazon.nova-2-lite-v1:0", cache=False, rpm=5,
-            "openai/gpt-5.2-2025-12-11", api_key=OPENAI_API_KEY, cache=False, rpm=0.5,
+            #"openai/gpt-5.2-2025-12-11", api_key=OPENAI_API_KEY, cache=False, rpm=0.5,
+            "gemini/gemini-3-pro-preview", api_key=GEMINI_API_KEY, cache=False, rpm=0.5,
         )
     ):
         analyser = dspy.ChainOfThought(PhotoDevelopmentParameterAnalysis)
