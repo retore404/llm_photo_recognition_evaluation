@@ -54,5 +54,19 @@ evaluation_data = [
         "parameter": "highlight",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_shadow_plus60.jpg",
+        "parameter": "shadow",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_shadow_minus60.jpg",
+        "parameter": "shadow",
+        "color": None,
+        "direction": "negative",
     }
 ]
