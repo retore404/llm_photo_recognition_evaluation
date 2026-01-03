@@ -1,0 +1,2 @@
+# llm_photo_recognition_evaluation
+写真のパラメータ変更に関するLLMの認識能力を検証するリポジトリ
