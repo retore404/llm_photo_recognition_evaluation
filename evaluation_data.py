@@ -110,5 +110,19 @@ evaluation_data = [
         "parameter": "texture",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_clarity_plus50.jpg",
+        "parameter": "clarity",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_clarity_minus50.jpg",
+        "parameter": "clarity",
+        "color": None,
+        "direction": "negative",
     }
 ]
