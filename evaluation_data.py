@@ -152,5 +152,19 @@ evaluation_data = [
         "parameter": "vibrance",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_saturation_overall_plus40.jpg",
+        "parameter": "saturation(overall)",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_saturation_overall_minus40.jpg",
+        "parameter": "saturation(overall)",
+        "color": None,
+        "direction": "negative",
     }
 ]
