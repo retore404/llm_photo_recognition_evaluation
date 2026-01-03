@@ -37,8 +37,8 @@ def main():
 
     with dspy.context(
         lm=dspy.LM(
-            #"bedrock/global.anthropic.claude-sonnet-4-5-20250929-v1:0", cache=False, rpm=5,
-            "bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0", cache=False, rpm=5,
+            #"bedrock/global.anthropic.claude-sonnet-4-5-20250929-v1:0", cache=False, rpm=1,
+            "bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0", cache=False, rpm=0.5,
             # "bedrock/us.amazon.nova-2-lite-v1:0",
             # cache=False,
             # rpm=5,

@@ -176,7 +176,7 @@ evaluation_data = [
     },
     {
         "base_image": "./images/00_base.jpg",
-        "developped_image": "./images/00_red_hue_minus70.jpg.jpg",
+        "developped_image": "./images/00_red_hue_minus70.jpg",
         "parameter": "hue",
         "color": "red",
         "direction": "negative",
@@ -190,7 +190,7 @@ evaluation_data = [
     },
     {
         "base_image": "./images/00_base.jpg",
-        "developped_image": "./images/00_red_saturation_minus80.jpg.jpg",
+        "developped_image": "./images/00_red_saturation_minus80.jpg",
         "parameter": "saturation",
         "color": "red",
         "direction": "negative",
@@ -204,9 +204,9 @@ evaluation_data = [
     },
     {
         "base_image": "./images/00_base.jpg",
-        "developped_image": "./images/00_red_brightness_minus80.jpg.jpg",
-        "parameter": "saturation",
+        "developped_image": "./images/00_red_brightness_minus80.jpg",
+        "parameter": "brightness",
         "color": "red",
-        "direction": "brightness",
+        "direction": "negative",
     }
 ]
