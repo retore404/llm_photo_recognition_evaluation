@@ -82,5 +82,19 @@ evaluation_data = [
         "parameter": "white_level",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_black_level_plus60.jpg",
+        "parameter": "black_level",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_black_level_minus60.jpg",
+        "parameter": "black_level",
+        "color": None,
+        "direction": "negative",
     }
 ]
