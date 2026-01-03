@@ -124,5 +124,19 @@ evaluation_data = [
         "parameter": "clarity",
         "color": None,
         "direction": "negative",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_dehaze_plus40.jpg",
+        "parameter": "dehaze",
+        "color": None,
+        "direction": "positive",
+    },
+    {
+        "base_image": "./images/00_base.jpg",
+        "developped_image": "./images/00_dehaze_minus40.jpg",
+        "parameter": "dehaze",
+        "color": None,
+        "direction": "negative",
     }
 ]
